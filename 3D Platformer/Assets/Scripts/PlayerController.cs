@@ -176,7 +176,7 @@ public class PlayerController : MonoBehaviour
     }
     #endregion
 
-    #region Dashing
+     #region Dashing
     private void OnDash(InputValue value)
     {
         if (!value.isPressed || !canDash || isDashing) { return; }
